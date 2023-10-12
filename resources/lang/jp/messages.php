@@ -1,0 +1,96 @@
+<?php
+
+return [
+
+    'title' => 'タイトル',
+    'HOME' => '家',
+    'ABOUT US' => '私たちについて',
+    'CONTACT US' => 'お問い合わせ',
+    'CUSTOMER SERVICES' => '顧客サービス',
+
+    'Track Your Order' => '注文を追跡する',
+    'Product Care & Repair' => '製品のケアと修理',
+    'Book an Appointment' => '予約を取る',
+    'Frequently Asked Questions' => 'よくある質問',
+    'Shipping & Returns' => '配送と返品について',
+
+    'FAQ' => '
+    よくある質問',
+    'Our Producers' => '私たちのプロデューサー',
+    'Sitemap' => 'サイトマップ',
+    'Terms & Conditions' => '利用規約',
+    'Privacy Policy' => 'プライバシーポリシー',
+    'Email'=>'Eメール',
+    'Earrings' => 'イヤリング',
+    'Necklaces' => 'ネックレス',
+    'Bracelets' => 'ブレスレット',
+    'Rings' => '指輪',
+    'Jewelry Box' => '宝石箱',
+    'Studs' => 'スタッズ',
+    'Home/About Us' =>'ホーム/私たちについて',
+    'CATALOG' => 'カタログ',
+    'ASTROLOGY' => '占星術',
+    'COMMING SOON' => 'Kinjitsu kōkai',
+    'Back The Homepage' => 'ホームページに戻る',
+    'Return Policy'=>'返品規則',
+    'Address'=>'住所',
+    '104, Options Primo, Passport office lane, Near Seepz gate-no.2, MIDC, Andheri East, Mumbai-400093'=>'104、オプション プリモ、パスポート オフィス レーン、シープズ ゲート 2 番近く、MIDC、アンデリ イースト、ムンバイ-400093',
+    'Blogs'=>'ブログ',
+    'Now up to 70% off*'=>'今なら最大 70% オフ*',
+    'MID YEAR SALE'=>'ミッドイヤーセール',
+    'Freshwater pearl necklace and earrings'=>'淡水パールのネックレスとイヤリング',
+    'Make It Memorable'=>'思い出に残るものにしましょう',
+    
+    'Summer Collections'=>'サマーコレクション',
+    'Oh, Hello Newness!'=>'ああ、こんにちはニューネス！',
+    'Best of the Best'=>'最高の最高',
+    'New Arrivals'=>'新着',
+    'Shop Now'=>'今すぐ購入',
+    'Best Seller'=>'ベストセラー',
+    'Clearance Sale'=>'クリアランスセール',
+    'Find Your Favourites'=>'お気に入りを見つけてください',
+    'Add to your jewellery'=>'あなたのジュエリーに加えてください',
+    'wardrobe'=>'ワードローブ',
+    'All Categories'=>'すべてのカテゴリ',
+    'Charms'=>'チャーム',
+    'Handcrafted'=>'手作り',
+    'Ethically Sourced'=>'倫理的に調達されたもの',
+    'FAIR PRICING'=>'公正な価格設定',
+    'Nullam quis ante. Pellentesque libero tortor, tincidunt et, tinciduntamet est.In hac habitasse platea dictumst. Praesent nec nisl a purus blandit viverra'=>'前には誰もいませんでした。この通りに住んでいたそうです。純粋なお世辞漫画でもない',
+    'HIGH QUALITY'=>'高品質',
+    'LEARN MORE'=>'もっと詳しく知る',
+    'Jewellery Online
+    at the Most Affordable Price'=>'ジュエリーオンライン
+    最も手頃な価格で',
+    'Jewellery Online at the Most Affordable Price'=>'ジュエリーを最も手頃な価格でオンラインで購入',
+    'Visit our online catalogue and shop for the finest earrings, rings, bracelets, watches, silver, and the most luxurious gemstones'=>'当社のオンライン カタログにアクセスして、最高級のイヤリング、リング、ブレスレット、時計、シルバー、最も豪華な宝石を購入してください',
+    'Read more'=>'続きを読む',
+    'Behind our 15-year success is our panel of expert jewellers who have been scouring the entire globe in pursuit of the best and most stunning jewellery that can be offered at affordable price for you.'=>'当社の 15 年間の成功の背後には、手頃な価格で提供できる最高で最も見事なジュエリーを追求して世界中を探し回ってきた専門宝石商のパネルがあります。',
+    'Visit our online catalogue and shop for the finest earrings, rings, bracelets, watches, silver, and the most luxurious gemstones.'=>'当社のオンライン カタログにアクセスして、最高級のイヤリング、リング、ブレスレット、時計、シルバー、最も豪華な宝石を購入してください。',
+    'Read more'=>'
+    続きを読む
+    ',
+    'OUR MISSION'=>'我々の使命',
+    'To Inspire moments of happiness and Celebrations To beautify the world through our meticulously crafted affordable luxury jewellery that contributes her personal style We strive to create Jewellery that inspires and keeps happy memories alive, whether it’s a tiny pendant or a huge diamond ring'=>'幸福とお祝いの瞬間を刺激するために 彼女の個人的なスタイルに貢献する、私たちの細心の注意を払って作られた手頃な価格の高級ジュエリーを通じて世界を美しくすること 私たちは、小さなペンダントであろうと、巨大なダイヤモンドのリングであろうと、幸せな思い出を刺激し、生き続けるジュエリーの作成に努めています',
+    'OUR VISION'=>'私たちのビジョン',
+    'To be your top of mind when in need of memorable jewellery Bring to the world a portfolio of exquisitely designed jewellery brands that anticipate and satisfy people’s needs and desires Create mutual and enduring value with customers and suppliers'=>'思い出に残るジュエリーが必要なときに一番に考えられるように 人々のニーズや欲望を先取りし満たす、精緻にデザインされたジュエリー ブランドのポートフォリオを世界に発信する 顧客やサプライヤーと相互に永続的な価値を創造する',
+    'OUR VALUES'=>'私達の価値',
+    'Our values are to create an inspirational workplace with room for development and change. Nothing is static, everything can happen when being open to changes and let the creativity flow We love to think outside the box and break conventions We always surprise customers with our creativity and strive to make high quality jewellery We conduct ourselves in an honest, trustworthy, and ethical manner at all times and are committed to protecting the environment, and maintaining respectful relation with customers, partners, suppliers, employees and communities'=>'私たちの価値観は、発展と変化の余地のある、インスピレーションに満ちた職場を作り出すことです。静的なものは何もなく、変化を受け入れ、創造性を発揮すれば、すべてが起こります。 私たちは既成概念にとらわれずに考え、常識を打ち破るのが大好きです。 私たちは常に創造性でお客様を驚かせ、高品質のジュエリーを作るよう努めています。 私たちは、誠実で信頼できる、誠実な姿勢で行動します。常に倫理的マナーを遵守し、環境を保護し、顧客、パートナー、サプライヤー、従業員、地域社会との敬意を持った関係を維持することに尽力します。',
+    'Shipping Worldwide'=>'世界中に発送',
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elitOUR VISION'=>'顧客サービスは重要であり、顧客サービスを追求します。',
+    '14 Days Return'=>'14日間返品可能',
+    'Japanese
+    Security Payment
+    '=>'セキュリティ支払い
+    ',
+    'Tell Us Your Message'=>'メッセージをお聞かせください',
+    'Name'=>'名前',
+    'Message'=>'メッセージ',
+    'Phone'=>'電話',
+    '104, Options Primo,Passport office lane, Near Seepz gate-no.2, MIDC,Andheri East,Mumbai-400093'=>'104、オプションプリモ、パスポートオフィスレーン、シープズゲート2番近く、MIDC、アンデリイースト、ムンバイ-400093',
+    'POLICY'=>'ポリシー',
+    'Useful Links'=>'役立つリンク',
+
+    'Localiztion In Laravel' => 'おはようございます',
+
+];
