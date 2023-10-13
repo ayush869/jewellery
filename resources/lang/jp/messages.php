@@ -1,7 +1,5 @@
 <?php
-
 return [
-
     'title' => 'タイトル',
     'HOME' => '家',
     'ABOUT US' => '私たちについて',
@@ -90,7 +88,6 @@ return [
     '104, Options Primo,Passport office lane, Near Seepz gate-no.2, MIDC,Andheri East,Mumbai-400093'=>'104、オプションプリモ、パスポートオフィスレーン、シープズゲート2番近く、MIDC、アンデリイースト、ムンバイ-400093',
     'POLICY'=>'ポリシー',
     'Useful Links'=>'役立つリンク',
-
     'Localiztion In Laravel' => 'おはようございます',
 
 ];
