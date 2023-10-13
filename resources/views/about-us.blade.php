@@ -18,79 +18,59 @@
 
 			<div id="content" class="site-content" role="main">
 				<div class="page-about-us">
-				
+
 					<section class="section section-padding m-b-70">
-								<div class="section-container">
-									<!-- Block Intro (Layout 3) -->
-									<div class="block block-intro layout-3">
-										<div class="block-widget-wrap">
-											<div class="row">
-												<div class="section-column left">
-													<div class="intro-wrap">
-														<h2 class="intro-title">{{ __('messages.Jewellery Online at the Most Affordable Price') }}</h2>
-														<div class="intro-item">
-														{{ __('messages.Behind our 15-year success is our panel of expert jewellers who have been scouring the entire globe in pursuit of the best and most stunning jewellery that can be offered at affordable price for you.') }}
-															 
-														</div>
-														<div class="intro-item">
-														{{ __('messages.Visit our online catalogue and shop for the finest earrings, rings, bracelets, watches, silver, and the most luxurious gemstones.') }}
-															
-														</div>
-														<div class="intro-btn">
-															<a href="shop-grid-left.html" class="button button-outline animation-horizontal">{{ __('messages.Read more') }}</a>
-														</div>
-													</div>
+						<div class="section-container">
+							<!-- Block Intro (Layout 3) -->
+							<div class="block block-intro layout-3">
+								<div class="block-widget-wrap">
+									<div class="row">
+										<div class="section-column left">
+											<div class="intro-wrap">
+												<h2 class="intro-title">{{ __('messages.Welcome To Shambhavi Jewellers') }}</h2>
+												<div class="intro-text">
+													{{ __('messages.Aenean imperdiet Proin viverra ligula sit amet ultrices semper ligula arcu tristique sapien a accumsan nisi mauris ac eros Vestibulum fringilla pede sit amet augue Donec quam felis ultricies nec pellentesque eu pretium quis, sem Fusce fermentum odio nec arcu.Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor. Sed cursus turpis vitae tortor. Vestibulum eu odio. Sed in libero ut nibh placerat accumsan. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.')}}
 												</div>
-												<div class="section-column right animation-horizontal hover-opacity">
-													<img width="690" height="498" src="{{asset('assets/media/banner/intro-2.jpg')}}" alt="intro">
+												<div class="intro-item">
+													{{ __('messages.Visit our online catalogue and shop for the finest earrings, rings, bracelets, watches, silver, and the most luxurious gemstones.') }}
+												</div>
+												<div class="intro-btn">
+													<a href="shop-grid-left.html" class="button button-outline animation-horizontal">{{ __('messages.Read more') }}</a>
 												</div>
 											</div>
+										</div>
+										<div class="section-column right animation-horizontal hover-opacity">
+											<img width="690" height="498" src="{{asset('assets/media/banner/intro-2.jpg')}}" alt="intro">
 										</div>
 									</div>
 								</div>
-							</section>
-
-					<!-- <section class="section section-padding m-t-20 m-b-70">
+							</div>
+						</div>
+					</section>
+					<section class="section section-padding background-img bg-img-2 p-t-70 p-b-70 m-b-70">
 						<div class="section-container">
-							
-							<div class="block block-banners banners-effect">
+							<!-- Block Intro (Layout 6) -->
+							<div class="block block-intro layout-6">
 								<div class="block-widget-wrap">
 									<div class="row">
-										<div class="col-md-4 sm-m-b-20">
-											<div class="block-widget-banner">
-												<div class="bg-banner">
-													<div class="banner-wrapper banners">
-														<div class="banner-image hover-opacity">
-															<a href="shop-grid-left.html">
-																<img src="{{asset('assets/media/banner/banner-about-1.jpg')}}" alt="Banner Image">
-															</a>
-														</div>
-													</div>
+										<div class="section-column left">
+											<div class="intro-wrap">
+												<h2 class="intro-title">{{ __('messages.We Know Jewellery') }} – <br>{{ __('messages.& We Know Our Customers') }}</h2>
+												<div class="intro-item m-b-0">
+												{{ __('messages.Cenean imperdiet.Proin viverra ligula sit amet ultrices semper ligula arcu tristique sapien a accumsan nisi mauris ac eros Vestibulum fringilla pede sit amet augue. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce fermentum odio nec arcu.') }}
 												</div>
 											</div>
 										</div>
-										<div class="col-md-4 sm-m-b-20">
-											<div class="block-widget-banner">
-												<div class="bg-banner">
-													<div class="banner-wrapper banners">
-														<div class="banner-image hover-opacity">
-															<a href="shop-grid-left.html">
-																<img src="{{asset('assets/media/banner/banner-about-2.jpg')}}" alt="Banner Image">
-															</a>
-														</div>
+										<div class="section-column right">
+											<div class="row">
+												<div class="col-md-6">
+													<div class="intro-image left animation-horizontal hover-opacity">
+														<img width="262" height="333" src="{{asset('assets/media/banner/intro-about-1.jpg')}}" alt="intro">
 													</div>
 												</div>
-											</div>
-										</div>
-										<div class="col-md-4">
-											<div class="block-widget-banner">
-												<div class="bg-banner">
-													<div class="banner-wrapper banners">
-														<div class="banner-image hover-opacity">
-															<a href="shop-grid-left.html">
-																<img src="{{asset('assets/media/banner/banner-about-3.jpg')}}" alt="Banner Image">
-															</a>
-														</div>
+												<div class="col-md-6">
+													<div class="intro-image right animation-horizontal hover-opacity">
+														<img width="330" height="419" src="{{asset('assets/media/banner/intro-about-2.jpg')}}" alt="intro">
 													</div>
 												</div>
 											</div>
@@ -99,8 +79,9 @@
 								</div>
 							</div>
 						</div>
-					</section> -->
-					<hr>
+					</section>
+
+					
 					<div class="section-padding">
 						<div class="section-container p-l-r">
 							<div class="page-faq">
@@ -112,15 +93,13 @@
 											</div>
 											<div class="section-content">
 												<div class="faq-item">
-													<!-- <div class="faq-question">
-																When do I receive my order?
-															</div> -->
+
 													<div class="faq-question">
-													{{ __('messages.To Inspire moments of happiness and Celebrations To beautify the world through our meticulously crafted affordable luxury jewellery that contributes her personal style We strive to create Jewellery that inspires and keeps happy memories alive, whether it’s a tiny pendant or a huge diamond ring') }}
-													
+														{{ __('messages.To Inspire moments of happiness and Celebrations To beautify the world through our meticulously crafted affordable luxury jewellery that contributes her personal style We strive to create Jewellery that inspires and keeps happy memories alive, whether it’s a tiny pendant or a huge diamond ring') }}
+
 													</div>
 												</div>
-												
+
 											</div>
 										</div>
 									</div>
@@ -131,10 +110,10 @@
 											</div>
 											<div class="section-content">
 												<div class="faq-item">
-													
+
 													<div class="faq-question">
-													{{ __('messages.To be your top of mind when in need of memorable jewellery Bring to the world a portfolio of exquisitely designed jewellery brands that anticipate and satisfy people’s needs and desires Create mutual and enduring value with customers and suppliers') }}
-														
+														{{ __('messages.To be your top of mind when in need of memorable jewellery Bring to the world a portfolio of exquisitely designed jewellery brands that anticipate and satisfy people’s needs and desires Create mutual and enduring value with customers and suppliers') }}
+
 													</div>
 												</div>
 												<!-- <div class="faq-item">
@@ -157,7 +136,7 @@
 										</div>
 									</div>
 
-								
+
 								</div>
 								<div class="row">
 									<div class="col-lg-10">
@@ -168,8 +147,8 @@
 											<div class="section-content">
 												<div class="faq-item">
 													<div class="faq-question">
-													{{ __('messages.Our values are to create an inspirational workplace with room for development and change. Nothing is static, everything can happen when being open to changes and let the creativity flow We love to think outside the box and break conventions We always surprise customers with our creativity and strive to make high quality jewellery We conduct ourselves in an honest, trustworthy, and ethical manner at all times and are committed to protecting the environment, and maintaining respectful relation with customers, partners, suppliers, employees and communities') }}
-														
+														{{ __('messages.Our values are to create an inspirational workplace with room for development and change. Nothing is static, everything can happen when being open to changes and let the creativity flow We love to think outside the box and break conventions We always surprise customers with our creativity and strive to make high quality jewellery We conduct ourselves in an honest, trustworthy, and ethical manner at all times and are committed to protecting the environment, and maintaining respectful relation with customers, partners, suppliers, employees and communities') }}
+
 													</div>
 
 												</div>
@@ -183,42 +162,31 @@
 							</div>
 						</div>
 					</div>
-					
 
-					<!-- <section class="section section-padding background-img bg-img-2 p-t-70 p-b-70 m-b-70">
-						<div class="section-container">
-							
-							<div class="block block-intro layout-6">
-								<div class="block-widget-wrap">
-									<div class="row">
-										<div class="section-column left">
-											<div class="intro-wrap">
-												<h2 class="intro-title">We Know Jewellery – <br> & We Know Our Customers</h2>
-												<div class="intro-item m-b-0">
-													Cenean imperdiet. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. Vestibulum fringilla pede sit amet augue. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce fermentum odio nec arcu.
-												</div>
-											</div>
-										</div>
-										<div class="section-column right">
-											<div class="row">
-												<div class="col-md-6">
-													<div class="intro-image left animation-horizontal hover-opacity">
-														<img width="262" height="333" src="{{asset('assets/media/banner/intro-about-1.jpg')}}" alt="intro">
+
+					<section class="section section-padding background-13 p-t-70 p-b-70 m-b-70">
+									<div class="section-container">
+										<!-- Block Intro (Layout 7) -->
+										<div class="block block-intro layout-7">
+											<div class="block-widget-wrap">
+												<div class="row">
+													<div class="section-column left animation-horizontal hover-opacity">
+														<img width="600" height="440" src="{{asset('assets/media/banner/intro-about-3.jpg')}}" alt="intro">
 													</div>
-												</div>
-												<div class="col-md-6">
-													<div class="intro-image right animation-horizontal hover-opacity">
-														<img width="330" height="419" src="{{asset('assets/media/banner/intro-about-2.jpg')}}" alt="intro">
+													<div class="section-column right">
+														<div class="intro-wrap">
+															<h2 class="intro-title">{{ __('messages.Top Jewellers at Ice Online') }}</h2>
+															<div class="intro-item m-b-0">
+															{{ __('messages.Cenean imperdiet. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. Vestibulum fringilla pede sit amet augue. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce fermentum odio nec arcu.') }}
+															</div>
+														</div>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
-								</div>
-							</div>
-						</div>
-					</section> -->
-					<hr class="mt-4">
+								</section>
+					
 					<section class="section section-padding m-b-70" style="margin-top: 10px;">
 						<div class="section-container">
 							<!-- Block Feature (Layout 2) -->
@@ -305,12 +273,12 @@
 												</div>
 												<div class="box-title-wrap">
 													<h3 class="box-title">
-													{{ __('messages.Shipping Worldwide') }}
-														
+														{{ __('messages.Shipping Worldwide') }}
+
 													</h3>
 													<p class="box-description">
-													{{ __('messages.Lorem ipsum dolor sit amet, consectetur adipiscing elitOUR VISION') }}
-														
+														{{ __('messages.Lorem ipsum dolor sit amet, consectetur adipiscing elitOUR VISION') }}
+
 													</p>
 												</div>
 											</div>
@@ -360,12 +328,12 @@
 												</div>
 												<div class="box-title-wrap">
 													<h3 class="box-title">
-													{{ __('messages.14 Days Return') }}
-														
+														{{ __('messages.14 Days Return') }}
+
 													</h3>
 													<p class="box-description">
-													{{ __('messages.Lorem ipsum dolor sit amet, consectetur adipiscing elitOUR VISION') }}
-														
+														{{ __('messages.Lorem ipsum dolor sit amet, consectetur adipiscing elitOUR VISION') }}
+
 													</p>
 												</div>
 											</div>
@@ -405,12 +373,12 @@
 												</div>
 												<div class="box-title-wrap">
 													<h3 class="box-title">
-													{{ __('messages.Security Payment') }}
-														
+														{{ __('messages.Security Payment') }}
+
 													</h3>
 													<p class="box-description">
-													{{ __('messages.Lorem ipsum dolor sit amet, consectetur adipiscing elitOUR VISION') }}
-														
+														{{ __('messages.Lorem ipsum dolor sit amet, consectetur adipiscing elitOUR VISION') }}
+
 													</p>
 												</div>
 											</div>
@@ -420,165 +388,6 @@
 							</div>
 						</div>
 					</section>
-
-
-
-					<!-- <section class="section section-padding m-b-70">
-						<div class="section-container">
-
-							<div class="block block-testimonial layout-2">
-								<div class="block-widget-wrap">
-									<div class="testimonial-wrap slick-wrap">
-										<div class="slick-sliders" data-slidestoscroll="true" data-slidestoscroll="true" data-nav="1" data-dots="0" data-columns4="1" data-columns3="1" data-columns2="1" data-columns1="2" data-columns="3">
-											<div class="testimonial-content">
-												<div class="item">
-													<div class="testimonial-item">
-														<div class="testimonial-icon">
-															<div class="rating">
-																<div class="star star-5"></div>
-															</div>
-														</div>
-														<h2 class="testimonial-title">“Amazing piece of history”</h2>
-														<div class="testimonial-excerpt">
-															Blood bank canine teeth larynx occupational therapist oncologist optician plaque spinal tap stat strep...
-														</div>
-													</div>
-													<div class="testimonial-image image-position-top">
-														<div class="thumbnail">
-															<img width="110" height="110" src="{{asset('assets/media/testimonial/1.jpg')}}" alt="">
-														</div>
-														<div class="testimonial-info">
-															<h2 class="testimonial-customer-name">Robet Smith</h2>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="testimonial-content">
-												<div class="item">
-													<div class="testimonial-item">
-														<div class="testimonial-icon">
-															<div class="rating">
-																<div class="star star-4"></div>
-															</div>
-														</div>
-														<h2 class="testimonial-title">“Fabulous Grounds”</h2>
-														<div class="testimonial-excerpt">
-															Blood bank canine teeth larynx occupational therapist oncologist optician plaque spinal tap stat strep...
-														</div>
-													</div>
-													<div class="testimonial-image image-position-top">
-														<div class="thumbnail">
-															<img width="110" height="110" src="{{asset('assets/media/testimonial/2.jpg')}}" alt="">
-														</div>
-														<div class="testimonial-info">
-															<h2 class="testimonial-customer-name">Saitama One</h2>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="testimonial-content">
-												<div class="item">
-													<div class="testimonial-item">
-														<div class="testimonial-icon">
-															<div class="rating">
-																<div class="star star-5"></div>
-															</div>
-														</div>
-														<h2 class="testimonial-title">“Great vineyard tour and tasting!”</h2>
-														<div class="testimonial-excerpt">
-															Blood bank canine teeth larynx occupational therapist oncologist optician plaque spinal tap stat strep...
-														</div>
-													</div>
-													<div class="testimonial-image image-position-top">
-														<div class="thumbnail">
-															<img width="110" height="110" src="{{asset('assets/media/testimonial/3.jpg')}}" alt="">
-														</div>
-														<div class="testimonial-info">
-															<h2 class="testimonial-customer-name">Sara Colinton</h2>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="testimonial-content">
-												<div class="item">
-													<div class="testimonial-item">
-														<div class="testimonial-icon">
-															<div class="rating">
-																<div class="star star-5"></div>
-															</div>
-														</div>
-														<h2 class="testimonial-title">“Stunning Design”</h2>
-														<div class="testimonial-excerpt">
-															Blood bank canine teeth larynx occupational therapist oncologist optician plaque spinal tap stat strep...
-														</div>
-													</div>
-													<div class="testimonial-image image-position-top">
-														<div class="thumbnail">
-															<img width="110" height="110" src="{{asset('assets/media/testimonial/4.jpg')}}" alt="">
-														</div>
-														<div class="testimonial-info">
-															<h2 class="testimonial-customer-name">Shetty Jamie</h2>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section> -->
-
-
-
-					<!-- <section class="section section-padding top-border p-t-10 p-b-10 m-b-0">
-						<div class="section-container">
-
-							<div class="block block-image slider">
-								<div class="block-widget-wrap">
-									<div class="slick-wrap">
-										<div class="slick-sliders" data-nav="0" data-columns4="1" data-columns3="2" data-columns2="3" data-columns1="4" data-columns1440="4" data-columns="5">
-											<div class="item slick-slide">
-												<div class="item-image animation-horizontal">
-													<a href="#">
-														<img width="450" height="450" src="{{asset('assets/media/brand/1.jpg')}}" alt="Brand 1">
-													</a>
-												</div>
-											</div>
-											<div class="item slick-slide">
-												<div class="item-image animation-horizontal">
-													<a href="#">
-														<img width="450" height="450" src="{{asset('assets/media/brand/2.jpg')}}" alt="Brand 2">
-													</a>
-												</div>
-											</div>
-											<div class="item slick-slide">
-												<div class="item-image animation-horizontal">
-													<a href="#">
-														<img width="450" height="450" src="{{asset('assets/media/brand/3.jpg')}}" alt="Brand 3">
-													</a>
-												</div>
-											</div>
-											<div class="item slick-slide">
-												<div class="item-image animation-horizontal">
-													<a href="#">
-														<img width="450" height="450" src="{{asset('assets/media/brand/4.jpg')}}" alt="Brand 4">
-													</a>
-												</div>
-											</div>
-											<div class="item slick-slide">
-												<div class="item-image animation-horizontal">
-													<a href="#">
-														<img width="450" height="450" src="{{asset('assets/media/brand/5.jpg')}}" alt="Brand 5">
-													</a>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section> -->
 				</div>
 			</div>
 		</div>

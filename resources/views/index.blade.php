@@ -2,23 +2,20 @@
 @section('hfeed page-wrapper')
 <div id="primary" class="content-area">
     <div id="content" class="site-content" role="main">
-        <!-- <section class="section">
-         
-            <div class="block block-sliders layout-2 auto-height nav-center">
+        <section class="section">
+            
+            <div class="block block-sliders layout-5 auto-height nav-center">
                 <div class="slick-sliders" data-autoplay="true" data-dots="true" data-nav="true" data-columns4="1" data-columns3="1" data-columns2="1" data-columns1="1" data-columns1440="1" data-columns="1">
                     <div class="item slick-slide">
                         <div class="item-content">
                             <div class="content-image">
-                                <img width="1920" height="1080" src="{{asset('assets/media/slider/2-1.jpg')}}" alt="Image Slider">
-
-
-                                <img width="1920" height="781" src="{{asset('assets/media/slider/4-1.jpg')}}" alt="Image Slider">
+                                <img src="{{asset('assets/media/slider/8-1.jpg')}}" alt="Image Slider">
                             </div>
                             <div class="item-info horizontal-center vertical-middle text-center">
-                                <div class="content">
-                                    <div class="subtitle-slider">TRANSPARENT. HONEST. REVOLUTIONARY.</div>
-                                    <h2 class="title-slider">Spring Collection</h2>
-                                    <a class="button button-slider button-black" href="shop-grid-left.html">SHOP NOW</a>
+                            <div class="content">
+                                    <div class="subtitle-slider">{{ __('messages.Oh, Hello Newness!') }}</div>
+                                    <h2 class="title-slider">{{ __('messages.MID YEAR SALE') }}</h2>
+
                                 </div>
                             </div>
                         </div>
@@ -26,16 +23,12 @@
                     <div class="item slick-slide">
                         <div class="item-content">
                             <div class="content-image">
-                                <img width="1920" height="1080" src="{{asset('assets/media/slider/2-2.jpg')}}" alt="Image Slider">
-
-
-                                <img width="1920" height="781" src="{{asset('assets/media/slider/4-2.jpg')}}" alt="Image Slider">
+                                <img src="{{asset('assets/media/slider/8-2.jpg')}}" alt="Image Slider">
                             </div>
                             <div class="item-info horizontal-center vertical-middle text-center">
                                 <div class="content">
-                                    <div class="subtitle-slider">30% OFF ALL ORDER</div>
-                                    <h2 class="title-slider">New Arrivals</h2>
-                                    <a class="button button-slider button-black" href="shop-grid-left.html">SHOP NOW</a>
+                                <div class="subtitle-slider">{{ __('messages.Now up to 70% off*') }}</div>
+                                    <h2 class="title-slider">{{ __('messages.MID YEAR SALE') }}</h2>
                                 </div>
                             </div>
                         </div>
@@ -43,25 +36,20 @@
                     <div class="item slick-slide">
                         <div class="item-content">
                             <div class="content-image">
-                                <img width="1920" height="1080" src="{{asset('assets/media/slider/2-3.jpg')}}" alt="Image Slider">
-
-
-                                <img width="1920" height="781" src="{{asset('assets/media/slider/4-3.jpg')}}" alt="Image Slider">
+                                <img src="{{asset('assets/media/slider/8-3.jpg')}}" alt="Image Slider">
                             </div>
                             <div class="item-info horizontal-center vertical-middle text-center">
-                                <div class="content">
-                                    <div class="subtitle-slider">30% OFF ALL ORDER</div>
-                                    <h2 class="title-slider">Oh, Hello Newness!</h2>
-                                    <a class="button button-slider button-black" href="shop-grid-left.html">SHOP NOW</a>
+                            <div class="content">
+                                    <div class="subtitle-slider">{{ __('messages.Best of the Best') }}</div>
+                                    <h2 class="title-slider">{{ __('messages.MID YEAR SALE') }}</h2>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section> -->
-        <section class="section">
-
+        </section>
+        <!-- <section class="section">
             <div class="block block-sliders layout-4 auto-height color-white nav-center">
                 <div class="slick-sliders" data-autoplay="true" data-dots="true" data-nav="true" data-columns4="1" data-columns3="1" data-columns2="1" data-columns1="1" data-columns1440="1" data-columns="1">
                     <div class="item slick-slide">
@@ -109,201 +97,16 @@
                 </div>
             </div>
         </section>
+        -->
+
+
         <section class="section section-padding m-b-70">
-            <div class="section-container large">
-                <!-- Block Banners (Layout 1) -->
-                <div class="block block-banners layout-1 banners-effect">
-                    <div class="block-widget-wrap small-space">
-                        <div class="row">
-                            <div class="section-column left sm-m-b">
-                                <div class="block-widget-banner">
-                                    <div class="bg-banner">
-                                        <div class="banner-wrapper banners">
-                                            <div class="banner-image">
-                                                <a href="shop-grid-left.html">
-                                                    <img width="630" height="457" src="{{asset('assets/media/banner/banner-1-1.jpg')}}" alt="Banner Image">
-                                                </a>
-                                            </div>
-                                            <div class="banner-wrapper-infor">
-                                                <div class="info">
-                                                    <div class="content">
-                                                        <h3 class="title-banner">{{ __('messages.New Arrivals') }}</h3>
-                                                        <a class="button" href="shop-grid-left.html">{{ __('messages.Shop Now') }}</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="section-column center sm-m-b">
-                                <div class="block-widget-banner">
-                                    <div class="bg-banner">
-                                        <div class="banner-wrapper banners">
-                                            <div class="banner-image">
-                                                <a href="shop-grid-left.html">
-                                                    <img width="450" height="457" src="{{asset('assets/media/banner/banner-1-2.jpg')}}" alt="Banner Image">
-                                                </a>
-                                            </div>
-                                            <div class="banner-wrapper-infor text-center">
-                                                <div class="info">
-                                                    <div class="content">
-                                                        <h3 class="title-banner">{{ __('messages.Best Seller') }}</h3>
-                                                        <a class="button center" href="shop-grid-left.html">{{ __('messages.Shop Now') }}</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="section-column right">
-                                <div class="block-widget-banner">
-                                    <div class="bg-banner">
-                                        <div class="banner-wrapper banners">
-                                            <div class="banner-image">
-                                                <a href="shop-grid-left.html">
-                                                    <img width="630" height="457" src="{{asset('assets/media/banner/banner-1-3.jpg')}}" alt="Banner Image">
-                                                </a>
-                                            </div>
-                                            <div class="banner-wrapper-infor">
-                                                <div class="info">
-                                                    <div class="content">
-                                                        <h3 class="title-banner">{{ __('messages.Clearance Sale') }}</h3>
-                                                        <a class="button" href="shop-grid-left.html">{{ __('messages.Shop Now') }}</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section section-padding">
             <div class="section-container">
 
-                <div class="block block-product-cats slider layout-4">
-                    <div class="block-widget-wrap">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="text-wrap">
-                                    <div class="sub-title">{{ __('messages.Find Your Favourites') }}</div>
-                                    <h2 class="title">{{ __('messages.Add to your jewellery') }} <br>{{ __('messages.wardrobe') }}</h2>
-                                    <a href="shop-grid-left.html" class="button button-outline border-black thick-border animation-horizontal">{{ __('messages.All Categories') }}</a>
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="product-cats-list slick-wrap">
-                                    <div class="slick-sliders content-category" data-dots="0" data-slidestoscroll="true" data-nav="0" data-columns4="1" data-columns3="2" data-columns2="2" data-columns1="3" data-columns1440="3" data-columns="3">
-                                        <div class="slick-item slick-slide">
-                                            <div class="item item-product-cat">
-                                                <div class="item-product-cat-content">
-                                                    <a href="shop-grid-left.html">
-                                                        <div class="item-image animation-horizontal">
-                                                            <img width="298" height="224" src="{{asset('assets/media/product/cat-6-1.jpg')}}" alt="Bracelets">
-                                                        </div>
-                                                    </a>
-                                                    <div class="product-cat-content-info">
-                                                        <h2 class="item-title">
-                                                            <a href="shop-grid-left.html">{{ __('messages.Bracelets') }}</a>
-                                                        </h2>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="item item-product-cat">
-                                                <div class="item-product-cat-content">
-                                                    <a href="shop-grid-left.html">
-                                                        <div class="item-image animation-horizontal">
-                                                            <img width="298" height="224" src="{{asset('assets/media/product/cat-6-2.jpg')}}" alt="Charms">
-                                                        </div>
-                                                    </a>
-                                                    <div class="product-cat-content-info">
-                                                        <h2 class="item-title">
-                                                            <a href="shop-grid-left.html">{{ __('messages.Charms') }}</a>
-                                                        </h2>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="slick-item slick-slide">
-                                            <div class="item item-product-cat">
-                                                <div class="item-product-cat-content">
-                                                    <a href="shop-grid-left.html">
-                                                        <div class="item-image animation-horizontal">
-                                                            <img width="298" height="224" src="{{asset('assets/media/product/cat-6-3.jpg')}}" alt="Earrings">
-                                                        </div>
-                                                    </a>
-                                                    <div class="product-cat-content-info">
-                                                        <h2 class="item-title">
-                                                            <a href="shop-grid-left.html">{{ __('messages.Earrings') }}</a>
-                                                        </h2>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="item item-product-cat">
-                                                <div class="item-product-cat-content">
-                                                    <a href="shop-grid-left.html">
-                                                        <div class="item-image animation-horizontal">
-                                                            <img width="298" height="224" src="{{asset('assets/media/product/cat-6-4.jpg')}}" alt="Necklaces">
-                                                        </div>
-                                                    </a>
-                                                    <div class="product-cat-content-info">
-                                                        <h2 class="item-title">
-                                                            <a href="shop-grid-left.html">{{ __('messages.Necklaces') }}</a>
-                                                        </h2>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="slick-item slick-slide">
-                                            <div class="item item-product-cat">
-                                                <div class="item-product-cat-content">
-                                                    <a href="shop-grid-left.html">
-                                                        <div class="item-image animation-horizontal">
-                                                            <img width="298" height="224" src="{{asset('assets/media/product/cat-6-5.jpg')}}" alt="Rings">
-                                                        </div>
-                                                    </a>
-                                                    <div class="product-cat-content-info">
-                                                        <h2 class="item-title">
-                                                            <a href="shop-grid-left.html">{{ __('messages.Rings') }}</a>
-                                                        </h2>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="item item-product-cat">
-                                                <div class="item-product-cat-content">
-                                                    <a href="shop-grid-left.html">
-                                                        <div class="item-image animation-horizontal">
-                                                            <img width="298" height="224" src="{{asset('assets/media/product/cat-6-6.jpg')}}" alt="Rings">
-                                                        </div>
-                                                    </a>
-                                                    <div class="product-cat-content-info">
-                                                        <h2 class="item-title">
-                                                            <a href="shop-grid-left.html">{{ __('messages.Rings') }}</a>
-                                                        </h2>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- <section class="section section-padding m-b-70">
-            <div class="section-container">
-               
                 <div class="block block-product-cats slider round-border">
                     <div class="block-widget-wrap">
                         <div class="block-title">
-                            <h2>Top Categories</h2>
+                            <h2>{{ __('messages.Top Categories') }}</h2>
                         </div>
                         <div class="block-content">
                             <div class="product-cats-list slick-wrap">
@@ -317,7 +120,7 @@
                                             </a>
                                             <div class="product-cat-content-info">
                                                 <h2 class="item-title">
-                                                    <a href="shop-grid-left.html">Bracelets</a>
+                                                    <a href="shop-grid-left.html">{{ __('messages.Bracelets') }}</a>
                                                 </h2>
                                             </div>
                                         </div>
@@ -331,7 +134,7 @@
                                             </a>
                                             <div class="product-cat-content-info">
                                                 <h2 class="item-title">
-                                                    <a href="shop-grid-left.html">Charms</a>
+                                                    <a href="shop-grid-left.html">{{ __('messages.Charms') }}</a>
                                                 </h2>
                                             </div>
                                         </div>
@@ -345,7 +148,7 @@
                                             </a>
                                             <div class="product-cat-content-info">
                                                 <h2 class="item-title">
-                                                    <a href="shop-grid-left.html">Earrings</a>
+                                                    <a href="shop-grid-left.html">{{ __('messages.Earrings') }}</a>
                                                 </h2>
                                             </div>
                                         </div>
@@ -359,7 +162,7 @@
                                             </a>
                                             <div class="product-cat-content-info">
                                                 <h2 class="item-title">
-                                                    <a href="shop-grid-left.html">Necklaces</a>
+                                                    <a href="shop-grid-left.html">{{ __('messages.Necklaces') }}</a>
                                                 </h2>
                                             </div>
                                         </div>
@@ -373,7 +176,7 @@
                                             </a>
                                             <div class="product-cat-content-info">
                                                 <h2 class="item-title">
-                                                    <a href="shop-grid-left.html">Rings</a>
+                                                    <a href="shop-grid-left.html">{{ __('messages.Rings') }}</a>
                                                 </h2>
                                             </div>
                                         </div>
@@ -387,7 +190,7 @@
                                             </a>
                                             <div class="product-cat-content-info">
                                                 <h2 class="item-title">
-                                                    <a href="shop-grid-left.html">Bracelets</a>
+                                                    <a href="shop-grid-left.html">{{ __('messages.Bracelets') }}</a>
                                                 </h2>
                                             </div>
                                         </div>
@@ -398,7 +201,7 @@
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
 
         <section class="section background-img bg-img-1 m-b-70">
             <!-- Block Intro -->
@@ -462,9 +265,7 @@
                                     <div class="text">{{ __('messages.Nullam quis ante. Pellentesque libero tortor, tincidunt et, tinciduntamet est.In hac habitasse platea dictumst. Praesent nec nisl a purus blandit viverra') }}</div>
                                 </div>
                             </div>
-                            <div class="intro-btn">
-                                <a href="shop-grid-left.html" class="button button-black button-arrow animation-horizontal" style="">{{ __('messages.LEARN MORE') }}</a>
-                            </div>
+
                         </div>
                     </div>
                     <div class="section-column right">
@@ -497,7 +298,7 @@
                                                     <div class="content">
                                                         <h3 class="title-banner">{{ __('messages.Summer Collections') }}</h3>
                                                         <div class="banner-image-description">
-                                                        {{ __('messages.Freshwater pearl necklace and earrings') }}
+                                                            {{ __('messages.Freshwater pearl necklace and earrings') }}
                                                         </div>
                                                         <!-- <a class="button button-outline thick-border border-white button-arrow" href="shop-grid-left.html">Explore</a> -->
                                                     </div>
@@ -521,7 +322,7 @@
                                                     <div class="content">
                                                         <h3 class="title-banner">{{ __('messages.Make It Memorable') }}</h3>
                                                         <div class="banner-image-description">
-                                                        {{ __('messages.Freshwater pearl necklace and earrings') }}
+                                                            {{ __('messages.Freshwater pearl necklace and earrings') }}
                                                         </div>
                                                         <!-- <a class="button button-outline thick-border border-white button-arrow" href="shop-grid-left.html">Explore</a> -->
                                                     </div>
@@ -536,10 +337,120 @@
                 </div>
             </div>
         </section>
+        <section class="section section-padding top-border p-t-70 m-b-70">
+            <div class="section-container">
+                <!-- Block Testimonial -->
+                <div class="block block-testimonial layout-2">
+                    <div class="block-widget-wrap">
+                        <div class="block-title text-center" style="margin-bottom: 60px;">
+                            <h2>{{ __('messages.Happy Clients Says') }}</h2>
+                        </div>
+                        <div class="block-content">
+                            <div class="testimonial-wrap slick-wrap">
+                                <div class="slick-sliders" data-slidestoscroll="true" data-slidestoscroll="true" data-nav="1" data-dots="0" data-columns4="1" data-columns3="1" data-columns2="1" data-columns1="2" data-columns="3">
+                                    <div class="testimonial-content">
+                                        <div class="item">
+                                            <div class="testimonial-item">
+                                                <div class="testimonial-icon">
+                                                    <div class="rating">
+                                                        <div class="star star-5"></div>
+                                                    </div>
+                                                </div>
+                                                <h2 class="testimonial-title">{{ __('messages.“Amazing piece of history”') }}</h2>
+                                                <div class="testimonial-excerpt">
+                                                    {{ __('messages.Blood bank canine teeth larynx occupational therapist oncologist optician plaque spinal tap stat strep') }}
 
+                                                </div>
+                                            </div>
+                                            <div class="testimonial-image image-position-top">
+                                                <div class="thumbnail">
+                                                    <img width="110" height="110" src="{{asset('assets/media/testimonial/1.jpg')}}" alt="">
+                                                </div>
+                                                <div class="testimonial-info">
+                                                    <h2 class="testimonial-customer-name">{{ __('messages.Robet Smith') }}</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <div class="item">
+                                            <div class="testimonial-item">
+                                                <div class="testimonial-icon">
+                                                    <div class="rating">
+                                                        <div class="star star-4"></div>
+                                                    </div>
+                                                </div>
+                                                <h2 class="testimonial-title">{{ __('messages.“Fabulous Grounds”') }}</h2>
+                                                <div class="testimonial-excerpt">
+                                                    {{ __('messages.Blood bank canine teeth larynx occupational therapist oncologist optician plaque spinal tap stat strep') }}
 
+                                                </div>
+                                            </div>
+                                            <div class="testimonial-image image-position-top">
+                                                <div class="thumbnail">
+                                                    <img width="110" height="110" src="{{asset('assets/media/testimonial/2.jpg')}}" alt="">
+                                                </div>
+                                                <div class="testimonial-info">
+                                                    <h2 class="testimonial-customer-name">{{ __('messages.Saitama One') }}</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <div class="item">
+                                            <div class="testimonial-item">
+                                                <div class="testimonial-icon">
+                                                    <div class="rating">
+                                                        <div class="star star-5"></div>
+                                                    </div>
+                                                </div>
+                                                <h2 class="testimonial-title">{{ __('messages.“Great vineyard tour and tasting!”') }}</h2>
+                                                <div class="testimonial-excerpt">
+                                                    {{ __('messages.Blood bank canine teeth larynx occupational therapist oncologist optician plaque spinal tap stat strep') }}
 
+                                                </div>
+                                            </div>
+                                            <div class="testimonial-image image-position-top">
+                                                <div class="thumbnail">
+                                                    <img width="110" height="110" src="{{asset('assets/media/testimonial/3.jpg')}}" alt="">
+                                                </div>
+                                                <div class="testimonial-info">
+                                                    <h2 class="testimonial-customer-name">{{ __('messages.Sara Colinton') }}</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <div class="item">
+                                            <div class="testimonial-item">
+                                                <div class="testimonial-icon">
+                                                    <div class="rating">
+                                                        <div class="star star-5"></div>
+                                                    </div>
+                                                </div>
+                                                <h2 class="testimonial-title">{{ __('messages.“Stunning Design”') }}</h2>
+                                                <div class="testimonial-excerpt">
+                                                    {{ __('messages.Blood bank canine teeth larynx occupational therapist oncologist optician plaque spinal tap stat strep') }}
 
+                                                </div>
+                                            </div>
+                                            <div class="testimonial-image image-position-top">
+                                                <div class="thumbnail">
+                                                    <img width="110" height="110" src="{{asset('assets/media/testimonial/4.jpg')}}" alt="">
+                                                </div>
+                                                <div class="testimonial-info">
+                                                    <h2 class="testimonial-customer-name">{{ __('messages.Shetty Jamie') }}</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 </div>
 </div>

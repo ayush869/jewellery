@@ -1,4 +1,9 @@
  <!--start footer wrapper-->
+ <style>
+    .font-size{
+        font-size: larger;
+    }
+ </style>
  <footer id="site-footer" class="site-footer background four-columns">
      <div class="footer">
          <div class="section-padding">
@@ -9,7 +14,7 @@
                              <div class="block block-menu">
                                  <div class="">
                                      <a href="{{route('index')}}">
-                                         <img width="120" height="100" src="{{asset('assets/media/logo.png')}}" alt="Mojuri – Jewelry Store HTML Template" />
+                                         <img width="120" height="100" src="{{asset('assets/media/Shambhavi.png')}}" alt="Mojuri – Jewelry Store HTML Template" />
                                      </a>
                                  </div>
                              </div>
@@ -28,7 +33,7 @@
                                  <div class="row">
                                      <div class="col-lg-3">
                                          <div class="block-title">
-                                             <h2 class="block-title">{{ __('messages.Useful Links') }}</h2>
+                                             <h2 class="block-title font-size">{{ __('messages.Useful Links') }}</h2>
                                          </div>
                                          <div class="block-content">
                                              <ul>
@@ -44,7 +49,7 @@
                                      </div>
                                      <div class="col-lg-4">
                                          <div class="block-title">
-                                             <h2 class="block-title">{{ __('messages.POLICY') }}</h>
+                                             <h2 class="block-title font-size">{{ __('messages.POLICY') }}</h>
                                          </div>
                                          <div class="block-content">
                                              <ul>
@@ -58,11 +63,11 @@
                                      <div class="col-lg-5">
                                          <div class="block block-menu">
                                              <div class="block-title">
-                                                 <h2 class="block-title">{{ __('messages.ABOUT US') }}</h2>
+                                                 <h2 class="block-title font-size">{{ __('messages.ABOUT US') }}</h2>
                                              </div>
                                              <div class="block-content">
                                                  <ul>
-                                                     <li class=""><span>{{ __('messages.Address') }}:</span>{{ __('messages.104, Options Primo, Passport office lane, Near Seepz gate-no.2, MIDC, Andheri East, Mumbai-400093') }} </li>
+                                                     <li class="" style="color:black;"><span>{{ __('messages.Address') }}:</span>{{ __('messages.104, Options Primo,Passport office lane, Near Seepz gate-no.2, MIDC,Andheri East,Mumbai-400093') }}</li>
                                                      <li class=""><span>Call
                                                              Us:</span> <a href="tel://+02262362942">+91 9323290018 </a>
                                                      </li>
