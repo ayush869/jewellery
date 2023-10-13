@@ -1,3 +1,5 @@
+
+
 <header id="site-header" class="site-header header-v1 color-white">
 	<div class="header-mobile">
 		<div class="section-padding">
@@ -9,8 +11,9 @@
 						</div>
 					</div>
 					<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 header-center">
-						<div class="site-logo">
+						<div class="">
 							<a href="index.html">
+								<label class="logo"></label>
 								<!-- <img width="400" height="79" src="{{asset('assets/media/logo.png')}}" alt="Mojuri – Jewelry Store HTML Template" /> -->
 							</a>
 						</div>
@@ -102,9 +105,11 @@
 				<div class="section-container large p-l-r">
 					<div class="row">
 						<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 header-left">
-							<div class="site-logo">
+							<div class="">
+								
 								<a href="{{route('index')}}">
-									<img width="400" height="140" src="{{asset('assets/media/logo.png')}}" alt="Mojuri – Jewelry Store HTML Template" />
+									<label class="logo">Shambhavi</label>
+									<!-- <img width="80" height="50" src="{{asset('assets/media/png/logo-white.png')}}" alt="Mojuri – Jewelry Store HTML Template" /> -->
 								</a>
 							</div>
 						</div>
@@ -122,7 +127,7 @@
 										<li class="level-0 menu-item">
 											<a href="{{route('astrology')}}"><span class="menu-item-text">{{ __('messages.ASTROLOGY') }}</span></a>
 										</li>
-									
+
 										<li class="level-0 menu-item">
 											<a href="{{route('contact-us')}}"><span class="menu-item-text">{{ __('messages.CONTACT US') }}</span></a>
 										</li>
@@ -136,7 +141,7 @@
 							<select class="form-select changeLang" style="border: 1px solid dark;">
 								<option value="en" {{ session()->get('locale') == 'en' ? 'selected' : '' }}>English</option>
 								<option value="jp" {{ session()->get('locale') == 'jp' ? 'selected' : '' }}>Japenese</option>
-								
+
 							</select>
 							<!-- <div class="btn-group">
 								<button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -149,7 +154,7 @@
 								</div>
 							</div> -->
 
-							
+
 						</div>
 					</div>
 				</div>
@@ -161,9 +166,9 @@
 <script>
 	var url = "{{route('lang-change')}}";
 
-	$(".dropdown-item").on('click',function(){
+	$(".dropdown-item").on('click', function() {
 		// var selectedItem = $(this).val();
-	
+
 		// window.location.href = url + "?lang=" +$(this).text();
 	});
 	$(".changeLang").change(function() {

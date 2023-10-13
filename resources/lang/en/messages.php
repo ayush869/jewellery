@@ -34,11 +34,8 @@ return [
     'Summer Collections' => 'Summer Collections',
     'Oh, Hello Newness!' => '
     Oh, Hello Newness!',
-    '
-    Best of the Best
-    ' => '
-    Best of the Best
-    ',
+    'Best of the Best' => 'Best of the Best',
+    'Top Categories'=>'Top Categories',
     'New Arrivals' => 'New Arrivals',
     'Shop Now' => 'Shop Now',
     'Best Seller' => 'Best Seller',
@@ -56,10 +53,10 @@ return [
     'Jewellery Online
     at the Most Affordable Price' => 'Jewellery Online
     at the Most Affordable Price',
-    'Jewellery Online at the Most Affordable Price' => 'Jewellery Online at the Most Affordable Price',
+    'Welcome To Shambhavi Jewellers' => 'Welcome To Shambhavi Jewellers',
     'Read more' => 'Read more',
-    'Behind our 15-year success is our panel of expert jewellers who have been scouring the entire globe in pursuit of the best and most stunning jewellery that can be offered at affordable price for you.' => 'Behind our 15-year success is our panel of expert jewellers who have been scouring the entire globe in pursuit of the best and most stunning jewellery that can be offered at affordable price for you.',
-    'Visit our online catalogue and shop for the finest earrings, rings, bracelets, watches, silver, and the most luxurious gemstones.' => 'Visit our online catalogue and shop for the finest earrings, rings, bracelets, watches, silver, and the most luxurious gemstones.',
+    'Aenean imperdiet. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. Vestibulum fringilla pede sit amet augue. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce fermentum odio nec arcu.Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor. Sed cursus turpis vitae tortor. Vestibulum eu odio. Sed in libero ut nibh placerat accumsan. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.' => 'Aenean imperdiet Proin viverra ligula sit amet ultrices semper ligula arcu tristique sapien a accumsan nisi mauris ac eros Vestibulum fringilla pede sit amet augue Donec quam felis ultricies nec pellentesque eu pretium quis, sem Fusce fermentum odio nec arcu.Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor. Sed cursus turpis vitae tortor. Vestibulum eu odio. Sed in libero ut nibh placerat accumsan. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
+    'Visit our online catalogue and shop for the finest earrings, rings, bracelets, watches, silver, and the most luxurious gemstones.' => 'Aenean imperdiet Proin viverra ligula sit amet ultrices semper ligula arcu tristique sapien a accumsan nisi mauris ac eros Vestibulum fringilla pede sit amet augue Donec quam felis ultricies nec pellentesque eu pretium quis, sem Fusce fermentum odio nec arcu.Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor. Sed cursus turpis vitae tortor. Vestibulum eu odio. Sed in libero ut nibh placerat accumsan. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
     'Read more' => 'Read more',
     'OUR MISSION' => 'OUR MISSION',
     'To Inspire moments of happiness and Celebrations To beautify the world through our meticulously crafted affordable luxury jewellery that contributes her personal style We strive to create Jewellery that inspires and keeps happy memories alive, whether it’s a tiny pendant or a huge diamond ring' => 'To Inspire moments of happiness and Celebrations To beautify the world through our meticulously crafted affordable luxury jewellery that contributes her personal style We strive to create Jewellery that inspires and keeps happy memories alive, whether it’s a tiny pendant or a huge diamond ring',
@@ -77,9 +74,7 @@ return [
     '104, Options Primo,Passport office lane, Near Seepz gate-no.2, MIDC,Andheri East,Mumbai-400093' => '104, Options Primo,Passport office lane, Near Seepz gate-no.2, MIDC,Andheri East,Mumbai-400093',
     'POLICY' => 'POLICY',
     'Useful Links' => 'Useful Links',
-    '' => '',
-    '' => '',
-    '' => '',
+   
     'Charms' => 'Charms',
 
 
@@ -95,6 +90,24 @@ return [
     'ASTROLOGY' => 'ASTROLOGY',
     'COMMING SOON' => 'COMMING SOON',
     'Back The Homepage' => 'Back The Homepage',
-    'Localiztion In Laravel' => 'Localiztion In Laravel'
+    'Localiztion In Laravel' => 'Localiztion In Laravel',
+    'Happy Clients Says' =>'Happy Clients Says',
+    'Blood bank canine teeth larynx occupational therapist oncologist optician plaque spinal tap stat strep' =>'Blood bank canine teeth larynx occupational therapist oncologist optician plaque spinal tap stat strep',
+    '“Amazing piece of history”' =>'“Amazing piece of history”',
+    '“Fabulous Grounds”' =>'“Fabulous Grounds”',
+    'Saitama One' =>'Saitama One',
+    '“Great vineyard tour and tasting!”'=>'“Great vineyard tour and tasting!”',
+    'Sara Colinton'=>'Sara Colinton',
+    '“Stunning Design”'=>'“Stunning Design”',
+    'Shetty Jamie'=>'Shetty Jamie',
+    'We Know Jewellery'=>'We Know Jewellery',
+    '& We Know Our Customers'=>'& We Know Our Customers',
+    'Cenean imperdiet.Proin viverra ligula sit amet ultrices semper ligula arcu tristique sapien a accumsan nisi mauris ac eros Vestibulum fringilla pede sit amet augue. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce fermentum odio nec arcu.'=>'Cenean imperdiet.Proin viverra ligula sit amet ultrices semper ligula arcu tristique sapien a accumsan nisi mauris ac eros Vestibulum fringilla pede sit amet augue. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce fermentum odio nec arcu.',
+    'Top Jewellers at Ice Online'=>'Top Jewellers at Ice Online',
+    'Cenean imperdiet. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. Vestibulum fringilla pede sit amet augue. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce fermentum odio nec arcu.'=>'Cenean imperdiet. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. Vestibulum fringilla pede sit amet augue. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce fermentum odio nec arcu.',
+    'Send Us Your Questions!'=>'Send Us Your Questions!',
+    'We’ll get back to you within two days.'=>'We’ll get back to you within two days.',
+    'OUR VALUES'=>'OUR VALUES',
+    'Phone No'=>'Phone No',
 
 ];
