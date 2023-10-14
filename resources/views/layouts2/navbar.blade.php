@@ -18,7 +18,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-xl-4 col-lg-4 col-md-4 col-sm-3 col-3 header-right">
+					<!-- <div class="col-xl-4 col-lg-4 col-md-4 col-sm-3 col-3 header-right">
 						<div class="mojuri-topcart dropdown">
 							<div class="dropdown mini-cart top-cart">
 								<div class="remove-cart-shadow"></div>
@@ -69,7 +69,7 @@
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>
@@ -77,13 +77,13 @@
 		<div class="header-mobile-fixed">
 			<!-- Shop -->
 			<div class="shop-page">
-				<a href="shop-grid-left.html"><i class="wpb-icon-shop"></i></a>
+				<a href="{{route('index')}}"><i class="wpb-icon-shop"></i></a>
 			</div>
 
 			<!-- Login -->
 			<div class="my-account">
 				<div class="login-header">
-					<a href="page-my-account.html"><i class="wpb-icon-user"></i></a>
+					<a href="#"><i class="wpb-icon-user"></i></a>
 				</div>
 			</div>
 
@@ -94,7 +94,7 @@
 
 			<!-- Wishlist -->
 			<div class="wishlist-box">
-				<a href="shop-wishlist.html"><i class="wpb-icon-heart"></i></a>
+				<a href="#"><i class="wpb-icon-heart"></i></a>
 			</div>
 		</div>
 	</div>

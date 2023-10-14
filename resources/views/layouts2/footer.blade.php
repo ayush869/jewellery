@@ -1,8 +1,8 @@
  <!--start footer wrapper-->
  <style>
-    .font-size{
-        font-size: larger;
-    }
+     .font-size {
+         font-size: larger;
+     }
  </style>
  <footer id="site-footer" class="site-footer background four-columns">
      <div class="footer">
@@ -95,13 +95,13 @@
                                  <p class="copyright">Copyright © 2023. All Right Reserved</p>
                              </div>
                          </div>
-                         <div class="col-md-6">
+                         <!-- <div class="col-md-6">
                              <div class="footer-right">
                                  <div class="block block-image">
                                      <img width="309" height="32" src="{{asset('assets/media/payments.png')}}" alt="">
                                  </div>
                              </div>
-                         </div>
+                         </div> -->
                      </div>
                  </div>
              </div>
