@@ -1,4 +1,5 @@
 @extends('layouts2.app')
+@section('title', 'Contact Us')
 @section('hfeed page-wrapper')
 <style>
 

@@ -1,9 +1,10 @@
 @extends('layouts2.app')
+@section('title', 'Home')
 @section('hfeed page-wrapper')
 <div id="primary" class="content-area">
     <div id="content" class="site-content" role="main">
         <section class="section">
-            
+
             <div class="block block-sliders layout-5 auto-height nav-center">
                 <div class="slick-sliders" data-autoplay="true" data-dots="true" data-nav="true" data-columns4="1" data-columns3="1" data-columns2="1" data-columns1="1" data-columns1440="1" data-columns="1">
                     <div class="item slick-slide">
@@ -12,7 +13,7 @@
                                 <img src="{{asset('assets/media/slider/8-1.jpg')}}" alt="Image Slider">
                             </div>
                             <div class="item-info horizontal-center vertical-middle text-center">
-                            <div class="content">
+                                <div class="content">
                                     <div class="subtitle-slider">{{ __('messages.Oh, Hello Newness!') }}</div>
                                     <h2 class="title-slider">{{ __('messages.MID YEAR SALE') }}</h2>
 
@@ -27,7 +28,7 @@
                             </div>
                             <div class="item-info horizontal-center vertical-middle text-center">
                                 <div class="content">
-                                <div class="subtitle-slider">{{ __('messages.Now up to 70% off*') }}</div>
+                                    <div class="subtitle-slider">{{ __('messages.Now up to 70% off*') }}</div>
                                     <h2 class="title-slider">{{ __('messages.MID YEAR SALE') }}</h2>
                                 </div>
                             </div>
@@ -39,7 +40,7 @@
                                 <img src="{{asset('assets/media/slider/8-3.jpg')}}" alt="Image Slider">
                             </div>
                             <div class="item-info horizontal-center vertical-middle text-center">
-                            <div class="content">
+                                <div class="content">
                                     <div class="subtitle-slider">{{ __('messages.Best of the Best') }}</div>
                                     <h2 class="title-slider">{{ __('messages.MID YEAR SALE') }}</h2>
                                 </div>
@@ -49,47 +50,73 @@
                 </div>
             </div>
         </section>
-        <!-- <section class="section">
-            <div class="block block-sliders layout-4 auto-height color-white nav-center">
-                <div class="slick-sliders" data-autoplay="true" data-dots="true" data-nav="true" data-columns4="1" data-columns3="1" data-columns2="1" data-columns1="1" data-columns1440="1" data-columns="1">
-                    <div class="item slick-slide">
-                        <div class="item-content">
-                            <div class="content-image">
-                                <img width="1920" height="1080" src="{{asset('assets/media/slider/4-1.jpg')}}" alt="Image Slider">
-                            </div>
-                            <div class="item-info horizontal-center vertical-middle text-center">
-                                <div class="content">
-                                    <div class="subtitle-slider">{{ __('messages.Now up to 70% off*') }}</div>
-                                    <h2 class="title-slider">{{ __('messages.MID YEAR SALE') }}</h2>
-
+        <section class="section section-padding m-b-70">
+            <div class="section-container large">
+                <!-- Block Banners (Layout 1) -->
+                <div class="block block-banners layout-1 banners-effect">
+                    <div class="block-widget-wrap small-space">
+                        <div class="row">
+                            <div class="section-column left sm-m-b">
+                                <div class="block-widget-banner">
+                                    <div class="bg-banner">
+                                        <div class="banner-wrapper banners">
+                                            <div class="banner-image">
+                                                <a href="javascript:void(0)">
+                                                    <img width="630" height="457" src="{{asset('assets/media/banner/banner-1-1.jpg')}}" alt="Banner Image">
+                                                </a>
+                                            </div>
+                                            <div class="banner-wrapper-infor">
+                                                <div class="info">
+                                                    <div class="content">
+                                                        <h3 class="title-banner">New Arrivals</h3>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="item slick-slide">
-                        <div class="item-content">
-                            <div class="content-image">
-                                <img width="1920" height="1080" src="{{asset('assets/media/slider/4-2.jpg')}}" alt="Image Slider">
-                            </div>
-                            <div class="item-info horizontal-center vertical-middle text-center">
-                                <div class="content">
-                                    <div class="subtitle-slider">{{ __('messages.Oh, Hello Newness!') }}</div>
-                                    <h2 class="title-slider">{{ __('messages.MID YEAR SALE') }}</h2>
-
+                            <div class="section-column center sm-m-b">
+                                <div class="block-widget-banner">
+                                    <div class="bg-banner">
+                                        <div class="banner-wrapper banners">
+                                            <div class="banner-image">
+                                                <a href="javascript:void(0)">
+                                                    <img width="450" height="457" src="{{asset('assets/media/banner/banner-1-2.jpg')}}" alt="Banner Image">
+                                                </a>
+                                            </div>
+                                            <div class="banner-wrapper-infor text-center">
+                                                <div class="info">
+                                                    <div class="content">
+                                                        <h3 class="title-banner">Best Seller</h3>
+                                                       
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="item slick-slide">
-                        <div class="item-content">
-                            <div class="content-image">
-                                <img width="1920" height="1080" src="{{asset('assets/media/slider/4-3.jpg')}}" alt="Image Slider">
-                            </div>
-                            <div class="item-info horizontal-center vertical-middle text-center">
-                                <div class="content">
-                                    <div class="subtitle-slider">{{ __('messages.Best of the Best') }}</div>
-                                    <h2 class="title-slider">{{ __('messages.MID YEAR SALE') }}</h2>
-
+                            <div class="section-column right">
+                                <div class="block-widget-banner">
+                                    <div class="bg-banner">
+                                        <div class="banner-wrapper banners">
+                                            <div class="banner-image">
+                                                <a href="javascript:void(0)">
+                                                    <img width="630" height="457" src="{{asset('assets/media/banner/banner-1-3.jpg')}}" alt="Banner Image">
+                                                </a>
+                                            </div>
+                                            <div class="banner-wrapper-infor">
+                                                <div class="info">
+                                                    <div class="content">
+                                                        <h3 class="title-banner">Clearance Sale</h3>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -97,9 +124,6 @@
                 </div>
             </div>
         </section>
-        -->
-
-
         <section class="section section-padding m-b-70">
             <div class="section-container">
 
@@ -113,84 +137,84 @@
                                 <div class="slick-sliders content-category" data-dots="0" data-slidestoscroll="true" data-nav="1" data-columns4="2" data-columns3="3" data-columns2="3" data-columns1="5" data-columns1440="5" data-columns="5">
                                     <div class="item item-product-cat slick-slide">
                                         <div class="item-product-cat-content">
-                                            <a href="shop-grid-left.html">
+                                            <a href="javascript:void(0)">
                                                 <div class="item-image animation-horizontal">
                                                     <img width="258" height="258" src="{{asset('assets/media/product/cat-1.jpg')}}" alt="Bracelets">
                                                 </div>
                                             </a>
                                             <div class="product-cat-content-info">
                                                 <h2 class="item-title">
-                                                    <a href="shop-grid-left.html">{{ __('messages.Bracelets') }}</a>
+                                                    <a href="javascript:void(0)">{{ __('messages.Bracelets') }}</a>
                                                 </h2>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="item item-product-cat slick-slide">
                                         <div class="item-product-cat-content">
-                                            <a href="shop-grid-left.html">
+                                            <a href="javascript:void(0)">
                                                 <div class="item-image animation-horizontal">
                                                     <img width="258" height="258" src="{{asset('assets/media/product/cat-2.jpg')}}" alt="Charms">
                                                 </div>
                                             </a>
                                             <div class="product-cat-content-info">
                                                 <h2 class="item-title">
-                                                    <a href="shop-grid-left.html">{{ __('messages.Charms') }}</a>
+                                                    <a href="javascript:void(0)">{{ __('messages.Charms') }}</a>
                                                 </h2>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="item item-product-cat slick-slide">
                                         <div class="item-product-cat-content">
-                                            <a href="shop-grid-left.html">
+                                            <a href="javascript:void(0)">
                                                 <div class="item-image animation-horizontal">
                                                     <img width="258" height="258" src="{{asset('assets/media/product/cat-3.jpg')}}" alt="Earrings">
                                                 </div>
                                             </a>
                                             <div class="product-cat-content-info">
                                                 <h2 class="item-title">
-                                                    <a href="shop-grid-left.html">{{ __('messages.Earrings') }}</a>
+                                                    <a href="javascript:void(0)">{{ __('messages.Earrings') }}</a>
                                                 </h2>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="item item-product-cat slick-slide">
                                         <div class="item-product-cat-content">
-                                            <a href="shop-grid-left.html">
+                                            <a href="javascript:void(0)">
                                                 <div class="item-image animation-horizontal">
                                                     <img width="258" height="258" src="{{asset('assets/media/product/cat-4.jpg')}}" alt="Necklaces">
                                                 </div>
                                             </a>
                                             <div class="product-cat-content-info">
                                                 <h2 class="item-title">
-                                                    <a href="shop-grid-left.html">{{ __('messages.Necklaces') }}</a>
+                                                    <a href="javascript:void(0)">{{ __('messages.Necklaces') }}</a>
                                                 </h2>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="item item-product-cat slick-slide">
                                         <div class="item-product-cat-content">
-                                            <a href="shop-grid-left.html">
+                                            <a href="javascript:void(0)">
                                                 <div class="item-image animation-horizontal">
                                                     <img width="258" height="258" src="{{asset('assets/media/product/cat-5.jpg')}}" alt="Rings">
                                                 </div>
                                             </a>
                                             <div class="product-cat-content-info">
                                                 <h2 class="item-title">
-                                                    <a href="shop-grid-left.html">{{ __('messages.Rings') }}</a>
+                                                    <a href="javascript:void(0)">{{ __('messages.Rings') }}</a>
                                                 </h2>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="item item-product-cat slick-slide">
                                         <div class="item-product-cat-content">
-                                            <a href="shop-grid-left.html">
+                                            <a href="javascript:void(0)">
                                                 <div class="item-image animation-horizontal">
                                                     <img width="258" height="258" src="{{asset('assets/media/product/cat-1.jpg')}}" alt="Bracelets">
                                                 </div>
                                             </a>
                                             <div class="product-cat-content-info">
                                                 <h2 class="item-title">
-                                                    <a href="shop-grid-left.html">{{ __('messages.Bracelets') }}</a>
+                                                    <a href="javascript:void(0)">{{ __('messages.Bracelets') }}</a>
                                                 </h2>
                                             </div>
                                         </div>
@@ -289,7 +313,7 @@
                                     <div class="bg-banner">
                                         <div class="banner-wrapper banners">
                                             <div class="banner-image">
-                                                <a href="shop-grid-left.html">
+                                                <a href="javascript:void(0)">
                                                     <img width="856" height="496" src="{{asset('assets/media/banner/banner-1-4.jpg')}}" alt="Banner Image">
                                                 </a>
                                             </div>
@@ -300,7 +324,7 @@
                                                         <div class="banner-image-description">
                                                             {{ __('messages.Freshwater pearl necklace and earrings') }}
                                                         </div>
-                                                        <!-- <a class="button button-outline thick-border border-white button-arrow" href="shop-grid-left.html">Explore</a> -->
+                                                        <!-- <a class="button button-outline thick-border border-white button-arrow" href="javascript:void(0)">Explore</a> -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -313,7 +337,7 @@
                                     <div class="bg-banner">
                                         <div class="banner-wrapper banners">
                                             <div class="banner-image">
-                                                <a href="shop-grid-left.html">
+                                                <a href="javascript:void(0)">
                                                     <img width="856" height="496" src="{{asset('assets/media/banner/banner-1-5.jpg')}}" alt="Banner Image">
                                                 </a>
                                             </div>
@@ -324,7 +348,7 @@
                                                         <div class="banner-image-description">
                                                             {{ __('messages.Freshwater pearl necklace and earrings') }}
                                                         </div>
-                                                        <!-- <a class="button button-outline thick-border border-white button-arrow" href="shop-grid-left.html">Explore</a> -->
+                                                        <!-- <a class="button button-outline thick-border border-white button-arrow" href="javascript:void(0)">Explore</a> -->
                                                     </div>
                                                 </div>
                                             </div>

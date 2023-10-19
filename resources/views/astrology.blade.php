@@ -1,4 +1,5 @@
 @extends('layouts2.app')
+@section('title', 'ASTROLOGY')
 @section('hfeed page-wrapper')
 <div id="site-main" class="site-main">
 				<div id="main-content" class="main-content">

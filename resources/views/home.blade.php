@@ -1,4 +1,5 @@
 @extends('layouts2.app')
+@section('title', 'Home')
 
    <!-- Back Top button -->
    <div class="back-top button-show">
