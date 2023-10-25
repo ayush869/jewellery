@@ -13,9 +13,7 @@ use App\Http\Controllers\languageController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
 Route::get('lang-home', [languageController::class, 'index'])->name('lang');
 Route::get('lang-change', [languageController::class, 'change'])->name('lang-change');
 // Route::get('/', [languageController::class, 'lang_index'])->name('lang-home-1');

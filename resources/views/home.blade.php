@@ -1,5 +1,4 @@
-@extends('layouts2.app')
-@section('title', 'Home')
+
 
    <!-- Back Top button -->
    <div class="back-top button-show">
@@ -47,7 +46,7 @@
                                 </td>
                             </tr>
                             <tr class="wishlist-item">
-                                <td class="wishlist-item-remove"><span></span></td>
+                                <td class="wishlist-item-remove"></td>
                                 <td class="wishlist-item-image">
                                     <a href="shop-details.html">
                                         <img width="600" height="600" src="{{asset('assets/media/product/4.jpg')}}" alt="">
